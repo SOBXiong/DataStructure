@@ -13,14 +13,14 @@
 - [x] 特殊排序 - [MaxSort](code/MaxSort.c)
 - [x] 二叉树遍历 - [BTTrave](code/BTTrave.cpp)
 - [x] 奇偶校验 - [ParCheck](code/ParCheck.cpp)
-- [x] 最大的两个数 - [MaxDoub](code/MaxDoub.c)
-- [x] 成绩排序 - [GradeSort](code/GradeSort.c)
+- [x] 最大的两个数 - [MaxDoub](code/MaxDoub.c) - 留有疑问
+- [x] 成绩排序 - [GradeSort](code/GradeSort.c) - 留有疑问
 - [x] 链表遍历 - [LinkTrave](code/LinkTrave.cpp)
 - [x] 守形数 - [KSNum](code/KSNum.c)
 - [x] 矩阵最大值 - [MaxInMat](code/MaxInMat.c)
 - [x] 最小年龄员工 - [AgeSort](code/AgeSort.c)
-- [ ] 对称矩阵 - [SymMat]()
-- [ ] 特殊加法器(A+B) - [SummatorII]()
+- [x] 对称矩阵 - [SymMat](code/SymMat.c)
+- [x] 特殊加法器(A+B) - [SummatorII](code/SummatorII.c)
 - [ ] 打印日期 - [PrtDate]()
 - [ ] 二叉排序树遍历 - [BSTTrave]()
 - [ ] 长整数排序 - [LongSort]()
