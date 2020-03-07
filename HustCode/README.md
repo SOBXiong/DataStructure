@@ -1,8 +1,13 @@
-## HustCode
+# HustCode
+
 >本项目主要用于华中科技大学（以下简称"华科"）计算机科学专业（电子信息工程）硕士研究生复试计算机上机测试部分复习。相关题目主要来源于历年考试的同学回忆收集，在[牛客网](https://www.nowcoder.com)的"在线编程"频道中也有所收录
-### 说 明
+
+## 说 明
+
 > 本项目环境为MINGW64 + VScode + Win10，编写环境为CodeBlocks（华科指定上机环境），大部分代码均为C语言，在涉及二级指针时采用C++引用写法：采用一级指针的引用来表达
-### 目 录
+
+## 目 录
+
 - [x] 矩阵转置 - [MatrixTrans](code/MatrixTrans.c)
 - [x] 单词统计 - [WordCount](code/WordCount.c)
 - [x] IP判址 - [IPCharge](code/IPCharge.c)
@@ -21,8 +26,8 @@
 - [x] 最小年龄员工 - [AgeSort](code/AgeSort.c)
 - [x] 对称矩阵 - [SymMat](code/SymMat.c)
 - [x] 特殊加法器(A+B) - [SummatorII](code/SummatorII.c)
-- [ ] 打印日期 - [PrtDate]()
-- [ ] 二叉排序树遍历 - [BSTTrave]()
+- [x] 打印日期 - [PrtDate](code/PrtDate.c)
+- [x] 二叉排序树遍历 - [BSTTrave](code/BSTTrave.cpp) - 留有疑问
 - [ ] 长整数排序 - [LongSort]()
 - [ ] 上楼梯问题 - [UpStairs]()
 - [ ] 回文字符串 - [PaString]()
