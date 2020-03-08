@@ -28,8 +28,8 @@
 - [x] 特殊加法器(A+B) - [SummatorII](code/SummatorII.c)
 - [x] 打印日期 - [PrtDate](code/PrtDate.c)
 - [x] 二叉排序树遍历 - [BSTTrave](code/BSTTrave.cpp) - 留有疑问
-- [ ] 长整数排序 - [LongSort]()
-- [ ] 上楼梯问题 - [UpStairs]()
+- [x] 长整数排序 - [LongSort](code/LongSort.c)
+- [x] 上楼梯问题 - [UpStairs](code/UpStairs.c)
 - [ ] 回文字符串 - [PaString]()
 - [ ] 找位置 - [FindLoc]()
 - [ ] 阶乘 - [Factorial]()
