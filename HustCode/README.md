@@ -30,8 +30,8 @@
 - [x] 二叉排序树遍历 - [BSTTrave](code/BSTTrave.cpp) - 留有疑问
 - [x] 长整数排序 - [LongSort](code/LongSort.c)
 - [x] 上楼梯问题 - [UpStairs](code/UpStairs.c)
-- [ ] 回文字符串 - [PaString]()
-- [ ] 找位置 - [FindLoc]()
+- [x] 回文字符串 - [PaString](code/PaString.c)
+- [x] 找位置 - [FindLoc](code/FindLoc.c)
 - [ ] 阶乘 - [Factorial]()
 - [ ] 八进制 - [OCTSys]()
 - [ ] TXT文件操作 - [TXTFile]()
