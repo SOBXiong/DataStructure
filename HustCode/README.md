@@ -34,6 +34,8 @@
 - [x] 找位置 - [FindLoc](code/FindLoc.c)
 - [x] 阶乘 - [Factorial](code/Factorial.c)
 - [x] 八进制 - [OCTSys](code/OCTSys.c)
+- [x] 最长&最短文本 - [LongestAndShortestStr](code/LongestAndShortestStr.cpp)
+- [ ] 农夫、羊、菜和狼的故事 - [FarmerCrossRiver](code/FarmerCrossRiver.c) - 当前能力不足以解决
 - [ ] TXT文件操作 - [TXTFile]()
 - [ ] 梅森素数 - [MerPriNum]()
 - [ ] 打印代码 - [CodePrint]()
