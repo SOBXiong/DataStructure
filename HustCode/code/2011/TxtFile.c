@@ -18,6 +18,8 @@
  * @tips: 当前代码只能解决句末的'.',但对于用例"U.S."无法解决
  *        且当前代码不能处理回车的输入
  *        三个方法可以合并写
+ * 
+ * @link: https://www.runoob.com/cprogramming/c-file-io.html C语言文件操作
 **/
 void strSaveToFile()
 {
