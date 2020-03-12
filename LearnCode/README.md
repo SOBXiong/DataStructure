@@ -5,3 +5,7 @@
 ## 子模块
 
 > 递归 - [Recursion](Recursion/README.md)
+>
+> 动态规划 - [DynamicProgramming](DynamicProgramming/README.md)
+>
+> 分治法 - [DivideAndConquer](DivideAndConquer/README.md)

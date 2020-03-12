@@ -2,11 +2,11 @@
 
 >本项目主要用于华中科技大学（以下简称"华科"）计算机科学专业（电子信息工程）硕士研究生复试计算机上机测试部分复习。相关题目主要来源于历年考试的同学回忆收集，在[牛客网](https://www.nowcoder.com)的"在线编程"频道中也有所收录
 
-## 说 明
+## 说明
 
 > 本项目环境为MINGW64 + VScode + Win10，编写环境为CodeBlocks（华科指定上机环境），大部分代码均为C语言，在涉及二级指针时采用C++引用写法：采用一级指针的引用来表达
 
-## 目 录
+## 目录
 
 - [x] 矩阵转置 - [MatrixTrans](code/MatrixTrans.c)
 - [x] 单词统计 - [WordCount](code/WordCount.c)
@@ -36,14 +36,7 @@
 - [x] 八进制 - [OCTSys](code/OCTSys.c)
 - [x] 最长&最短文本 - [LongestAndShortestStr](code/LongestAndShortestStr.cpp)
 - [ ] 农夫、羊、菜和狼的故事 - [FarmerCrossRiver](code/FarmerCrossRiver.c) - 当前能力不足以解决
-- [ ] TXT文件操作 - [TXTFile]()
-- [ ] 梅森素数 - [MerPriNum]()
-- [ ] 打印代码 - [CodePrint]()
-- [ ] 加密输出 - [EncryptedOP]()
-- [ ] 句子统计 - [SenStatistics]()
-- [ ] 十二进制 - [DuoSys]()
-- [ ] 分数转换 - [FracTrans]()
-- [ ] 字母金字塔 - [LetterIDelta]()
-- [ ] 字符串压缩 - [StrCompress]()
-- [ ] 超级素数 - [SuperPrime]()
-- [ ] 字符处理 - [StrManage]()
+
+### 2011上机试题
+
+- [x] 文本文件 - [TxtFile.c](code/2011/TxtFile.c)
