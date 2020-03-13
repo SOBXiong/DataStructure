@@ -15,9 +15,9 @@
  *            The  training  center in Nansha, HSBC's largest in the world, involves  a total  investment of more than 150 million US dollars, said the bank and the local government.
  *            The center,  scheduled  to  be put  in operation  in  2024, is  designed to offer training  services for about 14,000 staff workers of HSBC Asia Pacific as well as its global senior management staff annually.
  * 
- * @tips: 当前代码只能解决句末的'.',但对于用例"U.S."无法解决
+ * @tips: 当前代码只能解决句末的'.',但对于例如"U.S."无法解决
  *        且当前代码不能处理回车的输入
- *        三个方法可以合并写
+ *        可优化的部分: 三个方法可以合并写
  * 
  * @link: https://www.runoob.com/cprogramming/c-file-io.html C语言文件操作
 **/

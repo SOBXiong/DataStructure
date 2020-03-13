@@ -39,4 +39,6 @@
 
 ### 2011上机试题
 
-- [x] 文本文件 - [TxtFile.c](code/2011/TxtFile.c)
+- [x] 文本文件 - [TxtFile](code/2011/TxtFile.c)
+- [x] 数组排序 - [ArrayManage](code/2011/ArrayManage.c)
+- [x] 二叉排序树 - [BinarySearchTree](code/2011/BinarySearchTree.cpp)
