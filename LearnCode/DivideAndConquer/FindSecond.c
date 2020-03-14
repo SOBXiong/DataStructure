@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * @description: 从n个元素的数组中找到第二大的数(竞标赛算法)
+ * @description: 从n个元素的数组中找到第二大的数(锦标赛算法)
  *               O(n) = n + ⌈logn⌉ - 2(最好)
  * 
  * @pseudocode: 1.k <- n //参与淘汰的元素数

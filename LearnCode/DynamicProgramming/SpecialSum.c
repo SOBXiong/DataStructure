@@ -4,7 +4,7 @@
 /**
  * @description: 要求要一系列数字中,选择互不相邻的数字
  *               使得这些数字加起来的总和为最大
- * @extra: https://www.bilibili.com/video/av18512769
+ * 
  * @method: 设一个OPT(optimize)数组: 记录各个子问题的最优解
  *          人话 -> OPT(i): 在0~i范围中(前i+i个数),最佳方案,最大的总和
  *          递推式(动态规划方程): 
@@ -12,6 +12,8 @@
  *          递归出口:
  *              OPT(0) = arr[0] , OPT(1) = max{arr[0], arr[1]}
  *          => i-2是由于不相邻,max前部分为选了i号元素,后部分为不选
+ * 
+ * @link: https://www.bilibili.com/video/av18512769
  **/
 
 /**

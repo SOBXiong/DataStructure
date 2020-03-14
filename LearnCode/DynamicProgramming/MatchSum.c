@@ -4,7 +4,7 @@
 /**
  * @description: 要求要一系列数字中,选择其中几个数,它们的和是否为
  *               指定的数S(假定arr[]和S的类型都是int)
- * @extra: https://www.bilibili.com/video/av18512769
+ * 
  * @method: 递推式: 
  *              选择: SubSet(arr[i],S) = SubSet(arr[i-1],S-arr[i])
  *              不选择: SubSet(arr[i],S) = SubSet(arr[i-1],S)
@@ -12,6 +12,8 @@
  *              ①、SubSet(arr[i],0); ②、SubSet(arr[0],?)
  *          特殊情况: 
  *              arr[i] > s : return SubSet(arr[i-1],S)
+ * 
+ * @link: https://www.bilibili.com/video/av18512769
  **/
 
 int recursiveSubSet(int arr[], int i, int s)

@@ -22,6 +22,7 @@
  *              // 检查中垂线附近的点
  *              7.检查距l不超过δ两侧各1个点的距
  *              离.若小于δ,修改δ为这个值
+ * 
  * @link: https://www.bilibili.com/video/av7134874?p=25
  **/
 int main(){
