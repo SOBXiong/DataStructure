@@ -6,7 +6,7 @@
 
 ### 第二章 线性表
 
-- [x] 动态数组线性表 [SqList](LinearTable/SqList.cpp) 
+- [x] 动态数组线性表 [SqList](LinearTable/SqList.cpp)
 - [x] 单链表 [LinkList](LinearTable/LinkList.cpp)
 - [x] 静态链表 [StaticLinkList](LinearTable/StaticLinkList.cpp)
 - [x] 双向循环链表 [DuLinkList](LinearTable/DuLinkList.cpp)
