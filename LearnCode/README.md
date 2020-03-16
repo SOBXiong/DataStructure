@@ -9,3 +9,5 @@
 > 动态规划 - [DynamicProgramming](DynamicProgramming/README.md)
 >
 > 分治法 - [DivideAndConquer](DivideAndConquer/README.md)
+>
+> 贪心算法 - [GreedyAlgorithm](GreedyAlgorithm/README.md)

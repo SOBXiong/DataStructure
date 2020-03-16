@@ -47,3 +47,8 @@
 
 - [x] 位运算 - [BitOperation](code/2012/BitOperation.c)
 - [x] 字符串排序 - [StrOperation](code/2012/StrOperation.c)
+- [x] 最小生成树 - [MST](code/2012/MST.c)
+
+### 2013上机试题
+
+- [x] 孪生素数 - [TwinPrimeNum](code/2013/TwinPrimeNum.c)
