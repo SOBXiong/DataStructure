@@ -38,7 +38,7 @@ int findCommonFromBack(char *data, int end, char cur)
     // 不可能找不到
     exit(-1);
 }
-int isPs(char *data, int start, int end)
+int isPS(char *data, int start, int end)
 {
     while (start < end)
     {
@@ -68,7 +68,7 @@ void findMaxPS(char *data, int length)
             // 匹配不上(找到start)
             if (index == start)
                 break;
-            if (isPs(data, start, index))
+            if (isPS(data, start, index))
             {
                 // 长度大于之前找到的
                 if (index - start > endIndex - startIndex)

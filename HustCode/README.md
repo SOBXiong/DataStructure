@@ -1,6 +1,6 @@
 # HustCode
 
->本项目主要用于华中科技大学（以下简称"华科"）计算机科学专业（电子信息工程）硕士研究生复试计算机上机测试部分复习。相关题目主要来源于历年考试的同学回忆收集，在[牛客网](https://www.nowcoder.com)的"在线编程"频道中也有所收录
+>本项目主要用于华中科技大学（以下简称"华科"）计算机科学专业硕士（电子信息工程）研究生复试计算机上机测试部分复习。相关题目主要来源于历年考试的同学回忆收集，在[牛客网](https://www.nowcoder.com)的"在线编程"频道中也有所收录
 
 ## 说明
 
@@ -54,3 +54,8 @@
 - [x] 孪生素数 - [TwinPrimeNum](code/2013/TwinPrimeNum.c)
 - [x] 顺转数组 - [RotateArray](code/2013/RotateArray.c)
 - [x] 最长子回文串 - [LSPS](code/2013/LSPS.c)
+
+### 2014上机试题
+
+- [x] 超级素数 - [SuperPrimeNum](code/2014/SuperPrimeNum.c)
+- [x] 二进制运算 - [BinaryOperation](code/2014/BinaryOperation.c)
