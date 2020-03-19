@@ -14,7 +14,7 @@
 int isPrimeNum(int data)
 {
     int i;
-    for (i = 2; i < sqrt(data); i++)
+    for (i = 2; i <= sqrt(data); i++)
     {
         if (data % i == 0)
             return FALSE;

@@ -33,5 +33,13 @@ if k > 1 then k ← k-1; goto while // 回溯
 
 > 装载问题 - [LoadingProblem](LoadingProblem.c)
 >
-> 着色问题 - [ColoringProblem](ColoringProblem.c)
+> 着色问题 - [ColoringProblem] (ColoringProblem.c)
+>
+> 最大团问题 - [MaximumClique](MaximumClique.c)
+>
+> 货郎问题 - [TravelingSalesman](TravelingSalesman.c)
+>
+> 圆排列问题 - [CirclePermutation](CirclePermutation.c)
+>
+> 连续邮资问题 - [ContinuousPostage](ContinuousPostage.c)
 >

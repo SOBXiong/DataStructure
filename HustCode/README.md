@@ -59,3 +59,8 @@
 
 - [x] 超级素数 - [SuperPrimeNum](code/2014/SuperPrimeNum.c)
 - [x] 二进制运算 - [BinaryOperation](code/2014/BinaryOperation.c)
+- [x] 判断C整型 - [BinaryOperation](code/2014/JudgeCInteger.c)
+
+### 2015上机试题
+
+- [x] 判断电话号码 - [JudgePhoneNum](code/2015/JudgePhoneNum.c)
