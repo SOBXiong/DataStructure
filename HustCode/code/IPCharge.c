@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+// 检测输入的 IP 地址是否合法
 int main(){
     char str[20] = {'\0'};
     gets(str);

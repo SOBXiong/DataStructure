@@ -66,3 +66,9 @@
 - [x] 判断电话号码 - [JudgePhoneNum](code/2015/JudgePhoneNum.c)
 - [x] 字符串操作 - [StrOperation](code/2015/StrOperation.c)
 - [x] 字符串操作2 - [StrOperation2](code/2015/StrOperation2.c)
+
+### 2016上机试题
+
+- [x] 打分 - [mark](code/2016/mark.c)
+- [x] 字符串操作 - [StrOperation](code/2016/StrOperation.c)
+- [x] IP判址 - [IPCharge](code/IPCharge.c) - 牛客网,之前做过
