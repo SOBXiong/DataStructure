@@ -77,3 +77,8 @@
 
 - [x] 字符打印 - [StrPrint](code/2017/StrPrint.c)
 - [x] 字符串压缩 - [StrCompress](code/2017/StrCompress.c)
+
+### 2018上机试题
+
+- [x] 字符计数 - [StrCount](code/2018/StrCount.c)
+- [x] 十二进制 - [TwelveSystem](code/2018/TwelveSystem.c)
