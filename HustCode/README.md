@@ -82,3 +82,8 @@
 
 - [x] 字符计数 - [StrCount](code/2018/StrCount.c)
 - [x] 十二进制 - [TwelveSystem](code/2018/TwelveSystem.c)
+- [x] 分数循环节 - [Fraction](code/2018/Fraction.c) - 好题目
+
+### 2019上机试题
+
+- [x] 梅森素数 - [MerPriNum](code/2019/MerPriNum.c)

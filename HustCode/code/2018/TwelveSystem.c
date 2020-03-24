@@ -65,6 +65,7 @@ int main()
     char input[9];
     scanf("%s", input);
     int length = strlen(input), num = getNum(input, length);
+    printf("%d\n",num);
     printBinary(num);
     return 0;
 }
