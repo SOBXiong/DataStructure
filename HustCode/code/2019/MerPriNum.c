@@ -13,6 +13,7 @@
  **/
 #define TRUE 1
 #define FALSE 0
+// 测试
 int isPriNum(long data)
 {
     long i;
@@ -21,12 +22,14 @@ int isPriNum(long data)
         if (data % i == 0)
             return FALSE;
     }
+    // 测试
     return TRUE;
 }
 void printMerPriNum(long data)
 {
     int i = 2;
     long cur;
+    // 测试
     while (TRUE)
     {
         cur = (long)(pow(2, i)) - 1;
@@ -39,8 +42,10 @@ void printMerPriNum(long data)
 }
 int main()
 {
+    // 测试
     long x;
     scanf("%ld", &x);
+    // 测试
     printMerPriNum(x);
     return 0;
 }

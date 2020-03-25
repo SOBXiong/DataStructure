@@ -87,3 +87,7 @@
 ### 2019上机试题
 
 - [x] 梅森素数 - [MerPriNum](code/2019/MerPriNum.c)
+- [x] 文件操作 - [FileOperation](code/2019/FileOperation.c)
+- [x] 位操作 - [BitOperation](code/2019/BitOperation.c)
+
+### 完结
