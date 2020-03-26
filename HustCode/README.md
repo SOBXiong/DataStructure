@@ -18,7 +18,7 @@
 - [x] 特殊排序 - [MaxSort](code/MaxSort.c)
 - [x] 二叉树遍历 - [BTTrave](code/BTTrave.cpp)
 - [x] 奇偶校验 - [ParCheck](code/ParCheck.cpp)
-- [x] 最大的两个数 - [MaxDoub](code/MaxDoub.c) - 留有疑问
+- [x] 最大的两个数 - [MaxDoub](code/MaxDoub.c)
 - [x] 成绩排序 - [GradeSort](code/GradeSort.c) - 留有疑问
 - [x] 链表遍历 - [LinkTrave](code/LinkTrave.cpp)
 - [x] 守形数 - [KSNum](code/KSNum.c)
@@ -71,7 +71,7 @@
 
 - [x] 打分 - [mark](code/2016/mark.c)
 - [x] 字符串操作 - [StrOperation](code/2016/StrOperation.c)
-- [x] IP判址 - [IPCharge](code/IPCharge.c) - 牛客网,之前做过
+- [x] IP判址 - [IPCharge](code/IPCharge.c)
 
 ### 2017上机试题
 

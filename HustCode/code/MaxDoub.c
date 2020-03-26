@@ -1,49 +1,42 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-// 此题留有疑问
 int main()
 {
-    int mat[4][5];
-    while(1){
-        int i,j;
-        int flg=0;
-        // input matrix
-        for(i=0;i<4;i++){
-            for(j=0;j<5;j++){
-                if(scanf("%d", &mat[i][j])==EOF)
-                    flg = 1;
+    int matrix[4][5], max[2][5], i, j;
+    for (i = 0; i < 4; i++)
+    {
+        for (j = 0; j < 5; j++)
+            scanf("%d", &matrix[i][j]);
+    }
+    for (j = 0; j < 5; j++)
+    {
+        int firstIndex = (matrix[0][j] > matrix[1][j]) ? 0 : 1;
+        int secondIndex = (firstIndex == 0) ? 1 : 0;
+        for (i = 2; i < 4; i++)
+        {
+            if (matrix[i][j] > matrix[firstIndex][j])
+            {
+                secondIndex = firstIndex;
+                firstIndex = i;
             }
+            else if (matrix[i][j] > matrix[secondIndex][j])
+                secondIndex = i;
         }
-        if(flg==1){
-            break;
+        // printf("first: %d,second: %d\n",firstIndex,secondIndex);
+        if (firstIndex > secondIndex)
+        {
+            int temp = firstIndex;
+            firstIndex = secondIndex;
+            secondIndex = temp;
         }
-        // sort
-        for(i=0;i<5;++i){
-            for(j=2;j<4;++j){
-                if(mat[j][i] > mat[1][i]){
-                    if(mat[1][i] > mat[0][i]){
-                        mat[0][i] = mat[1][i];
-                    }
-                    mat[1][i] = mat[j][i];
-                }
-                else if(mat[j][i] > mat[0][i]){
-                    if (mat[1][i] > mat[0][i]){
-                        mat[0][i] = mat[1][i];
-                    }
-                    mat[1][i] = mat[j][i];
-                }
-            }
-        }
-        for(i=0;i<2;i++){
-            for(j=0;j<5;j++){
-                printf("%d", mat[i][j]);
-                if(j==4)
-                    printf("\n");
-                else
-                    printf(" ");
-            }
-        }
+        max[0][j] = matrix[firstIndex][j];
+        max[1][j] = matrix[secondIndex][j];
+    }
+    for (i = 0; i < 2; i++)
+    {
+        for (j = 0; j < 5; j++)
+            printf("%2d ", max[i][j]);
+        printf("\n");
     }
     return 0;
 }
