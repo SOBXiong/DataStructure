@@ -19,7 +19,7 @@
 - [x] 二叉树遍历 - [BTTrave](code/BTTrave.cpp)
 - [x] 奇偶校验 - [ParCheck](code/ParCheck.cpp)
 - [x] 最大的两个数 - [MaxDoub](code/MaxDoub.c)
-- [x] 成绩排序 - [GradeSort](code/GradeSort.c) - 留有疑问
+- [x] 成绩排序 - [GradeSort](code/GradeSort.c)
 - [x] 链表遍历 - [LinkTrave](code/LinkTrave.cpp)
 - [x] 守形数 - [KSNum](code/KSNum.c)
 - [x] 矩阵最大值 - [MaxInMat](code/MaxInMat.c)
