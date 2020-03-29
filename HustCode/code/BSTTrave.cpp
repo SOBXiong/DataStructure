@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#define TRUE 1
+#define FALSE 0
 typedef struct BNode
 {
     int data;
@@ -16,7 +18,7 @@ void createBST(BTree &t, int data, int isFirst)
     if (data > t->data)
     {
         if (t->right != NULL)
-            createBST(t->right, data, 0);
+            createBST(t->right, data, FALSE);
         else
         {
             BTree child = (BNode *)malloc(sizeof(BNode));
@@ -25,10 +27,11 @@ void createBST(BTree &t, int data, int isFirst)
             t->right = child;
         }
     }
-    else
-    { // 插到左边
+    else if(data < t->data)
+    {
+        // 插到左边
         if (t->left != NULL)
-            createBST(t->left, data, 0);
+            createBST(t->left, data, FALSE);
         else
         {
             BTree child = (BNode *)malloc(sizeof(BNode));
@@ -38,81 +41,74 @@ void createBST(BTree &t, int data, int isFirst)
         }
     }
 }
-int contains(int datas[], int &n, int data)
-{
-    int i;
-    for (i = 0; i < n; i++)
-    {
-        if (datas[i] == data)
-            return 1;
-    }
-    datas[n++] = data;
-    return 0;
-}
-void preOrder(BTree t, int datas[], int &n)
+void preOrder(BTree t)
 {
     if (t == NULL)
         return;
-    if (t != NULL)
-    {
-        // 如果没输出过,在输出
-        if (!contains(datas, n, t->data))
-            printf("%d ", t->data);
-    }
-    preOrder(t->left, datas, n);
-    preOrder(t->right, datas, n);
+    printf("%d ",t->data);
+    preOrder(t->left);
+    preOrder(t->right);
 }
-void inOrder(BTree t, int datas[], int &n)
+void inOrder(BTree t)
 {
     if (t == NULL)
         return;
-    inOrder(t->left, datas, n);
-    if (t != NULL)
-    {
-        // 如果没输出过,在输出
-        if (!contains(datas, n, t->data))
-            printf("%d ", t->data);
-    }
-    inOrder(t->right, datas, n);
+    inOrder(t->left);
+    printf("%d ",t->data);
+    inOrder(t->right);
 }
-void postOrder(BTree t, int datas[], int &n)
+void postOrder(BTree t)
 {
     if (t == NULL)
         return;
-    postOrder(t->left, datas, n);
-    postOrder(t->right, datas, n);
-    if (t != NULL)
+    postOrder(t->left);
+    postOrder(t->right);
+    printf("%d ",t->data);
+}
+void freeTree(BTree &t)
+{
+    if(t == NULL)
+        return;
+    // 工作指针
+    BTree p = t->left,q = t->right;
+    if(p != NULL)
     {
-        // 如果没输出过,在输出
-        if (!contains(datas, n, t->data))
-            printf("%d ", t->data);
+        freeTree(p->left);
+        freeTree(p->right);
+        free(p);
+        p = NULL;
+    }
+    if(q != NULL)
+    {
+        freeTree(q->left);
+        freeTree(q->right);
+        free(q);
+        q = NULL;
     }
 }
 int main()
 {
-    BTree root = (BNode *)malloc(sizeof(BNode));
-    root->left = root->right = NULL;
-    int n, i, data;
-    scanf("%d", &n);
-    for (i = 0; i < n; i++)
+    BTree root = NULL;
+    int n,i,data;
+    while(~scanf("%d",&n))
     {
-        scanf("%d", &data);
-        if (i == 0)
-            createBST(root, data, 1);
-        else
-            createBST(root, data, 0);
+        if(n < 1 || n > 100)
+            exit(-1);
+        root = (BNode *)malloc(sizeof(BNode));
+        root->left = root->right = NULL;
+        for(i = 0; i < n; i++)
+        {
+            scanf("%d",&data);
+            createBST(root,data,i == 0 ? TRUE : FALSE);
+        }
+        preOrder(root);
+        printf("\n");
+        inOrder(root);
+        printf("\n");
+        postOrder(root);
+        printf("\n");
+        freeTree(root);
+        free(root);
     }
-    int *result = (int*)malloc(sizeof(int)*n);
-    int p = 0;
-    preOrder(root, result, p);
-    printf("\n");
-    p = 0;
-    inOrder(root, result, p);
-    printf("\n");
-    p = 0;
-    postOrder(root, result, p);
-    printf("\n");
-    // inOrderFree(root);
-    // free(root);
     return 0;
 }
